@@ -14,23 +14,32 @@
     <div id="contenedor">
         <h1>Calculadora Basica</h1>
         <br>
-        <input type="text" id="n1" class="operacion" placeholder="Número 1">
+        <input type="text" id="n1" placeholder="Número 1"
+        style="width: 200px;">
         <br>
-        <select id="operacion" name="operacion">
+        <br>
+        <select id="operation" name="operation" style="width: 200px;">
             <option value="suma">+</option>
             <option value="resta">-</option>
-            <option value="multiplicacion">x</option>
-            <option value="division">/</option>
+            <option value="mul">x</option>
+            <option value="div">/</option>
         </select>
         <br>
-        <input type="text" id="n2" class="operacion" placeholder="Número 2">
         <br>
-        <button type="button" onclick="calcular()" class="btn btn-primary" 
-        id="operacion">Calcular</button>
+        <input type="text" id="n2" placeholder="Número 2"
+        style="width: 200px;">
         <br>
-        <button type="button" onclick="reiniciar()" class="btn btn-primary" 
-        id="operacion">Reiniciar</button>
+        <br>
+        <button type="button" onclick="operate()" class="btn btn-primary" 
+        style="width: 200px;">Calcular</button>
+        <br>
+        <br>
+        <a href="/index.html" class="btn btn-primary" style="width: 200px;">Reiniciar</a>
+        <br>
+        <br>
+        <p>El resultado es: <span id="result"></span></p>
     </div>
-</body>
 
+    <script src="/scripts/index.js"></script>
+</body>
 </html>
