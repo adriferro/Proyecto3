@@ -1,0 +1,25 @@
+#centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: gray;
+    width: 200px;
+}
+
+#contenedor {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#operacion {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.operacion {
+    width: 200px;
+    margin-bottom: 20px;
+}
